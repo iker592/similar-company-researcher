@@ -14,8 +14,8 @@ def run():
     Run the crew.
     """
     inputs = {
-        "target_company": "<Placeholder Company>",
-        "our_product": "<Placeholder Product>",
+        "target_company": "apartments.com",
+        "our_product": "CasaYa",
     }
 
     SimilarCompanyFinderTemplateCrew().crew().kickoff(inputs=inputs)
